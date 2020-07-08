@@ -11,8 +11,9 @@
     <main>
         <!--Nav section start-->
         <header>
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navigation-bar">
+            <div class="bg-header-area">
+              <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light text-dark navigation-bar">
                     <!--logo down-->
                     <a class="navbar-brand" href="#">
                         <img src="images/ICON/Logo.png" width="160px" height="60px" alt="school logo">
@@ -34,15 +35,17 @@
                             <a class="nav-link" href="#others">Others</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#blocks">Blog</a>
+                            <a class="nav-link" href="#blog">Blog</a>
                           </li>
                        </ul>
                         <button class="style-button" type="submit">Sign in</button>
                     </div>
                   </nav>
-            </div>
+               </div>
+            
         <!--Top banner down-->
-            <div class="container">
+            <div class="header-area">
+              <div class="container">
                 <div class="row">
                     <div class="col-md-5 banner-text-area">
                         <h5 class="text-danger">Are you ready to learn?</h5>
@@ -57,31 +60,34 @@
                     </div>
                 </div>
             </div>
+            </div>
+          </div>
         </header>
         <section>
-            <div class="container card-container">
+          <!--Student summary section start-->
+            <div class="container card-container" id="books">
                 <div class="row">
-                    <div class="col-md-3 d-flex align-items-center">
-                      <div class="card">
-                        <img src="images/ICON/book.png" class="card-img-top"  alt="...">
+                    <div class="col-md-3">
+                      <div class="card d-flex align-items-center">
+                        <img src="images/ICON/book.png" class="card-img-top img-card"  alt="...">
                         <div class="card-body">
                           <h5 class="card-title d-flex justify-content-center">1500+ Topic</h5>
                           <p class="card-text d-flex justify-content-center">learn Anyhting</p>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-3 d-flex align-items-center">
-                      <div class="card card-shadow">
-                        <img src="images/ICON/Student.png" class="card-img-top" alt="...">
+                    <div class="col-md-3">
+                      <div class="card d-flex align-items-center card-shadow">
+                        <img src="images/ICON/Student.png" class="card-img-top img-card" alt="...">
                         <div class="card-body">
                           <h5 class="card-title d-flex justify-content-center">1800+ Students</h5>
                           <p class="card-text d-flex justify-content-center">Learn Anything.</p>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-3 d-flex align-items-center">
-                      <div class="card">
-                        <img src="images/ICON/Test.png" class="card-img-top" alt="...">
+                    <div class="col-md-3">
+                      <div class="card d-flex align-items-center">
+                        <img src="images/ICON/Test.png" class="card-img-top img-card" alt="...">
                         <div class="card-body">
                           <h5 class="card-title d-flex justify-content-center">9k+ Test Token</h5>
                           <p class="card-text d-flex justify-content-center">Learn Anything</p>
@@ -89,9 +95,9 @@
                       </div>
                     </div>
                     
-                        <div class="col-md-3 d-flex align-items-center">
-                            <div class="card">
-                              <img src="images/ICON/Students.png" class="card-img-top" alt="...">
+                        <div class="col-md-3">
+                            <div class="card d-flex align-items-center">
+                              <img src="images/ICON/Students.png" class="card-img-top img-card" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-center">2000+ Student</h5>
                                 <p class="card-text d-flex justify-content-center">Learn Anything</p>
@@ -102,8 +108,10 @@
                   </div>
             </div>
         </section>
+    
+    <!--online courses section start-->
         <section>
-            <div class="container">
+            <div class="container" id="courses">
                 <h1 class="d-flex justify-content-center online-course-text">Online Courses</h1>
                 <div class="card-deck">
                     <div class="card">
@@ -151,6 +159,184 @@
                   </div>
             </div>
         </section>
+        <!--extra blog section-->
+        <section>
+          <div class="container">
+            <divc id="blog" class="d-flex justify-content-center">
+              <h2>Blog</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-center">
+                <img src="images/Oli-Blog-2.jpg" class="blog-section-image" alt="">
+              </div>
+              <div class="col-md-6 blog-student">
+                <h3>Student learning 360</h3>
+                <h6 class="student-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime accusamus officia labore debitis ut incidunt reiciendis rem ducimus, eligendi aliquid dolorum, eos obcaecati fugiat atque voluptatibus! Similique sit enim tempore.</h6>
+                <a href="#">Continue reading</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--testimonial section start-->
+        <section>
+          <div class="container">
+             <h3 class="d-flex justify-content-center online-course-text">Testimonial</h3>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row d-flex align-item-center">
+                  <div class="col-md-4 d-flex justify-content-center">
+                    <img src="images/Photos/Man.png" class="slide-image" alt="...">
+                  </div>
+                  <div class="col-md-8 d-flex justify-content-center">
+                    <h5 class="slide-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minus optio tenetur? Fugit natus quibusdam, incidunt porro officia odio, tenetur nihil in illo vitae possimus adipisci quas error rem ipsa."</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex align-item-center">
+                  <div class="col-md-4 d-flex justify-content-center">
+                    <img src="images/246615_2200-800x1200.png" class="slide-image" alt="...">
+                  </div>
+                  <div class="col-md-8 d-flex justify-content-center">
+                    <h5 class="slide-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minus optio tenetur? Fugit natus quibusdam, incidunt porro officia odio, tenetur nihil in illo vitae possimus adipisci quas error rem ipsa."</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        </section>
+        <!--Register form-->
+        <section>
+          <div class="container">
+            <h3 class="d-flex justify-content-center register-form">Course Register</h3>
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationCustom01">Name</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Jhon Mark" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="validationCustom02">Email</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="enter your email" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationCustom03">City</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationCustom04">State</label>
+                  <select class="custom-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationCustom05">Zip</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+            
+            <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+              'use strict';
+              window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                  form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                  }, false);
+                });
+              }, false);
+            })();
+            </script>
+          </div>
+        </section>
+        <!--footer section-start-->
+        <footer>
+          <div class="row">
+            <div class="col-md-4 first-footer-text d-flex justify-content-center">
+              <h6>Millions of people of all ages and from around the world are improving their lives with us</h6>
+            </div>
+            <div class="col-md-2 d-flex justify-content-center">
+                <div class="footer-text">
+                  <h3>Course</h3>
+                  <h6>Graphic Design</h6>
+                  <h6>Web Design</h6>
+                  <h6>Business</h6>
+                  <h6>Marketing</h6>
+                  <h6>Engineering</h6>
+                </div>
+              </div>
+              <div class="col-md-2 d-flex justify-content-center">
+                <div class="footer-text">
+                  <h3>Terms</h3>
+                  <h6>Graphic Design</h6>
+                  <h6>Web Design</h6>
+                  <h6>Business</h6>
+                  <h6>Marketing</h6>
+                  <h6>Engineering</h6>
+                </div>
+              </div>
+              <div class="col-md-2 d-flex justify-content-center">
+                <div class="footer-text">
+                  <h3>Useful Links</h3>
+                  <h6>Graphic Design</h6>
+                  <h6>Web Design</h6>
+                  <h6>Business</h6>
+                  <h6>Marketing</h6>
+                  <h6>Engineering</h6>
+                </div>
+              </div>
+          </div>
+          <h6 class="d-flex justify-content-center copyright">&copy Copyright Reserved By E-School 2020</h6>
+        </footer>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
